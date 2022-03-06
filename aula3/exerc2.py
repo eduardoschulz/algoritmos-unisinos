@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #Author Eduardo Schulz
-#
+#Exerc do Slide
 
 A = int(input("A "))
 B = int(input("B "))

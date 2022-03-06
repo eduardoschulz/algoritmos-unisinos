@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #AUTHOR:Eduardo S
-
+#Exercicios do Slide
 
 A = float(input("Número A"))
 B = int(input("Número B"))
