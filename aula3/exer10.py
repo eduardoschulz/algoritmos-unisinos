@@ -4,7 +4,7 @@
 letra = str(input("Digite uma letra: "))
 if letra in ["a", "A", "e", "E", "i","I", "u", "U", "o", "O"]:
     print("vogal ")
-elif len(letra) > 1:
+if len(letra) > 1:
     print("apenas uma letra")
 else:
     print("consoante")
