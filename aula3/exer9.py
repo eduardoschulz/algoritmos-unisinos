@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 #Author Eduardo S
 #
-while(True):
-        print("Cálculo de Médias do Grau")
+notaM = 1
+while notaM < 0:
+        print("Cálculo de Médias do Grau \n")
         grauA = float(input("Nota do GrauA: "))
         grauB = float(input("Nota do GrauB: "))
 
         notaM = (grauA + grauB) / 2
 
-        if(notaM < 6):
+        if(notaM < 6 and notaM > 0):
             print(notaM)
             print("Será necessário o GrauC")
             exit()
