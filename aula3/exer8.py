@@ -32,7 +32,7 @@ def poten():
 def radia():
     num1 = int(input("Numero 1"))
     num2 = int(input("Numero 1"))
-    num3 = (num1**(num2/2))
+    num3 = (num1**(1/num2))
     print(num3)
 while(True):
     print("======= Calculadora ======= \n 1 - Soma \n 2 - Subtração \n 3 - Multiplicação \n 4 - Divisão \n 5 - Potenciação \n 6 - Radiação \n 7 = sair")
