@@ -1,9 +1,11 @@
-#!/usr/bin/env python
+fac = 1
+x = int(input("num"))
 
-numerof = int(input("Numero para Fatorial"))
-fatorial = 1
-while(numerof > 0):
-    fatorial = numerof
-    fatorial += fatorial
-    numerof -= 1
-    print(fatorial)
+if(x <= 0):
+    print("error")
+    exit()
+
+while(x > 1):
+    fac = fac * x
+    x = x - 1
+print(fac)
