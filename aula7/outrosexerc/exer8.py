@@ -12,8 +12,7 @@ def contaCarc(lista):
  #   for i in lista:
   #      if step == 0:
    #         minLen = i
-    #    else:
-     #       if len(i) < len(minLen):
+     #   elif len(i) < len(minLen):
       #          minLen = i
        # step += 1
 arr = []
