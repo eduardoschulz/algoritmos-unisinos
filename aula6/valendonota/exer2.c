@@ -14,7 +14,7 @@ int main(){
 
     //declara-se as variaveis entro do while para que elas sejam limpas a cada volta no loop
     int soma = 0;
-    int div[] = {}; //cria uma array que ira guardar os divisores de um numero
+    int div[9999] = {}; //cria uma array que ira guardar os divisores de um numero
     int posArr = 0; //cria um variavel para o endereço da array.
 
     for(double i = 1; i < num; i++){
