@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=Times
-comment1.params=
-comment1.target=Times()
-numComments=2
+comment1.params=nome\ mundial\ corPrincipal\ serieDoBra\ patrimonio
+comment1.target=Times(java.lang.String,\ int,\ java.lang.String,\ char,\ double)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

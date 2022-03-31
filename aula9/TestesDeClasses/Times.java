@@ -1,12 +1,14 @@
-import java.util.Scanner;
+
 public class Times{
-    private String nome = "Gremio";
-    private boolean mundial = true;
-    private String corPrincipal = "Azul"; 
-    private char seriedoBra = 'B';
-    private double patrimonio = 10000000;
+    private String nome;
+    private int mundial;
+    private String corPrincipal;
+    private char seriedoBra;
+    private double patrimonio;
      
-    public Times(){
-        System.out.println("imortal");
+    public Times(String nome, int mundial, String corPrincipal, char serieDoBra, double patrimonio){
+    }
+    public void main(String[] args){
+        System.out.println(nome);
     }
 }

@@ -33,8 +33,8 @@ public class Animal {
 
        System.out.println("nome do cachorro ");
        String nome = input.nextLine(); //objeto usa o metodo nextLine -> String; nextInt; nextChar...
-
        Animal cachorro = new Animal(nome); //declara objeto cachorro
+
 
        cachorro.latido();
        cachorro.fome(false);
