@@ -1,4 +1,3 @@
-import java.lang.Math;
 public class Calculadora{
     private int memoria;
     private String cor;
