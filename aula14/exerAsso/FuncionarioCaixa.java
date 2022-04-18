@@ -2,7 +2,7 @@ public class FuncionarioCaixa{
     private String nome;
     private String endereco;
     private char sexo;
-    Calculadora calculadora = new Calculadora(0, "azul");
+    private Calculadora calculadora = new Calculadora(0, "azul");
 
     public FuncionarioCaixa(){
         this.nome = "default";

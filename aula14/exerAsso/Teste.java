@@ -4,7 +4,7 @@ public class Teste{
         FuncionarioCaixa funcionario = new FuncionarioCaixa(Teclado.leString("Nome do Funcionário: "), Teclado.leString("Endereço: "), Teclado.leChar("Sexo(M ou F): "));
         funcionario.calculadora.soma(2,2);
         funcionario.calculadora.subtrai(5,4);
-        funcionario.calculadora.multiplica(2,3);
+        funcionario.ltiplica(2,3);
         funcionario.calculadora.divide(6,3);
         funcionario.calculadora.elevaAoQuadrado(72);
         funcionario.calculadora.elevaAoCubo(83);
