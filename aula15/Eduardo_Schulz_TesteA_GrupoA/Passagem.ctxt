@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Passagem
+comment1.params=viagem0\ passageiro0\ valorPassagem
+comment1.target=Passagem(Viagem,\ Passageiro,\ double)
+comment2.params=
+comment2.target=double\ getValorPassagem()
+comment3.params=valorPassagem
+comment3.target=void\ setValorPassagem(double)
+comment4.params=
+comment4.target=void\ imprimeInfo()
+numComments=5
