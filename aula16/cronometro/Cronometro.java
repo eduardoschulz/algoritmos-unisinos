@@ -5,12 +5,12 @@ public class Cronometro{
         x = x * 60;
         while(stp < x){
             stp++;
-            segundos = stp;
-            if(segundos == 60){
+            segundos++;
+            if(segundos >= 60){
                 minutos++;
                 segundos = 0;
             }
-            if(minutos == 60){
+            if(minutos >= 60){
                 horas++;
                 minutos = 0;
             }
@@ -25,7 +25,10 @@ public class Cronometro{
 
     }
     public String toString(int x){
-        if()
-        return ""+x;
+        if(x>=10)
+            return ""+x;
+        else
+            return "0"+x;
+
     }
     }
