@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Aeroporto
+comment1.params=
+comment1.target=Aeroporto()
+comment2.params=nome
+comment2.target=Aeroporto(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=
+comment4.target=double\ getTotalArrecadado()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+comment6.params=totalArrecadadoPas
+comment6.target=void\ setValorArrecadado(double)
+comment7.params=passageiro0\ viagem0
+comment7.target=Passagem\ comprarPassagem(Passageiro,\ Viagem)
+numComments=8
